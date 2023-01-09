@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "yayasan-walii"
+  },
+  "targets": {
+    "yayasan-walii": {
+      "hosting": {
+        "walii": [
+          "yayasan-walii"
+        ],
+        "wanayasa": [
+          "wanayasa"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
