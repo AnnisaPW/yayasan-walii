@@ -1,0 +1,22 @@
+#div-bg {
+  height: 100vh;
+  background-color: #32502E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 1000px;
+  height: 100vh;
+  background-color: #406343;
+  display: flex;
+  justify-content: center;
+}
+
+#txt-title {
+  margin-top: 4vh;
+  font-weight: 500;
+  color: #fff;
+  font-size: 8.5vh;
+}
