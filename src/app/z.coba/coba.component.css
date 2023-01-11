@@ -1,4 +1,29 @@
 .container {
-  width: 900px;
-  height: 500px;
+  width: 1000px;
+  height: 100vh;
+  background-color: pink;
+
+}
+
+.inner1 {
+  width: 1000px;
+  height: 1000px;
+  background-color: purple;
+}
+
+.inner2 {
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  background-color: red;
+  position: relative;
+}
+
+.image {
+  max-width: 500px;
+  max-height: 400px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+
 }

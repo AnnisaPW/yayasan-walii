@@ -10,14 +10,42 @@
   width: 1000px;
   height: 100vh;
   background-color: #406343;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 #txt-title {
   font-family: 'Kadwa';
-  margin-top: 4vh;
+  margin-top: 3vh;
   font-weight: 500;
   color: #fff;
   font-size: 8.5vh;
+  margin-bottom: 1vh;
+}
+
+#div-carousel {
+  height: 670px;
+
+}
+
+.img {
+  aspect-ratio: auto;
+  width: 800px;
+  margin-top: 50px;
+
+}
+
+.caption {
+  text-align: justify;
+  width: 800px;
+  margin-left: 5.2vw;
+  margin-top: 20px;
+  color: #fff;
+}
+
+#txt-2,
+#txt-3,
+#txt-4,
+#txt-5,
+#txt-7 {
+  text-align: center;
 }

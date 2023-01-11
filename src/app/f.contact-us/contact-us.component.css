@@ -1,3 +1,5 @@
+@import 'material-icons/iconfont/material-icons.css';
+
 #div-bg {
   height: 100vh;
   background-color: #32502E;
@@ -6,13 +8,74 @@
   justify-content: center; */
 }
 
-.container {
+.div-child {
   width: 1000px;
   height: 45vh;
-  /* background-color: #406343; */
+  padding-left: 50px;
   background-image: url('../../assets/images/contact-us.png');
   display: flex;
   background-size: cover;
   background-position: center;
-  justify-content: center;
+  /* justify-content: center; */
+}
+
+.txt {
+  font-family: 'Kadwa';
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+  /* font-size: 50px; */
+  line-height: 104.78%;
+  color: #FFFFFF;
+}
+
+#title1 {
+  margin-top: 50px;
+  font-size: 55px;
+
+
+}
+
+#title2 {
+  margin-top: 0;
+  font-size: 60px;
+
+
+}
+
+#telp {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+#street {
+  margin-top: 20px;
+}
+
+.address {
+  margin: 0;
+  line-height: 120%;
+}
+
+.div-sosmed {
+  /* position: absolute; */
+  margin-left: 660px;
+  margin-top: 15px;
+  /* right: 10% */
+}
+
+.sosmed {
+  aspect-ratio: auto;
+  width: 60px;
+  margin-left: 10px;
+  /* align-items: flex-end; */
+
+}
+
+#f {
+  width: 15px;
+}
+
+#y {
+  width: 41px;
 }

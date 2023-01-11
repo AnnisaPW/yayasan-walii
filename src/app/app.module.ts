@@ -11,6 +11,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CobaComponent } from './z.coba/coba.component';
 import { GalleryComponent } from './e.gallery/gallery.component';
 import { ContactUsComponent } from './f.contact-us/contact-us.component';
+import { NgFor, NgIf } from '@angular/common';
+import {
+  NgbCarouselConfig,
+  NgbCarouselModule,
+} from '@ng-bootstrap/ng-bootstrap';
+// import {MatIconModule} from '@angular/material/icon'
 
 @NgModule({
   declarations: [
@@ -23,7 +29,14 @@ import { ContactUsComponent } from './f.contact-us/contact-us.component';
     GalleryComponent,
     ContactUsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgbModule,
+    NgbCarouselModule,
+    NgIf,
+    NgFor,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

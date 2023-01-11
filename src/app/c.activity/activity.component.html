@@ -1,6 +1,125 @@
-<!-- <p>activity works!</p> -->
 <div id="div-bg">
   <div id="container">
     <div id="txt-title">Activity</div>
+    <ngb-carousel
+      *ngIf="images"
+      id="div-carousel"
+      [showNavigationArrows]="showNavigationArrows"
+      [showNavigationIndicators]="showNavigationIndicators"
+      [interval]="interval"
+    >
+      <ng-template ngbSlide class="slide">
+        <div class="div-img">
+          <img
+            class="img"
+            src="../../assets/images/activity/Activity 1-min.png"
+            alt="img1"
+          />
+        </div>
+        <div class="caption" id="txt-1">
+          <p>
+            1. Helping collect data in the field regarding the ecology, social
+            and economics of live reef fish fishermen in Spermonde, South
+            Sulawesi
+          </p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide class="slide">
+        <div class="div-img">
+          <img
+            class="img"
+            src="../../assets/images/activity/Activity 2-min.png"
+            alt="img2"
+          />
+        </div>
+        <div class="caption" id="txt-2">
+          <p>2. Analyze the results of samples in the laboratory</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide class="slide">
+        <div class="div-img">
+          <img
+            class="img"
+            src="../../assets/images/activity/Activity 3-min.png"
+            alt="img3"
+          />
+        </div>
+        <div class="caption" id="txt-3">
+          <p>3. Write a research report</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide class="slide">
+        <div class="div-img">
+          <img
+            class="img"
+            src="../../assets/images/activity/Activity 4-min.png"
+            alt="img3"
+          />
+        </div>
+        <div class="caption" id="txt-4">
+          <p>
+            4. Analyzing field findings in the form of primary data in the form
+            of interviews and FGDs
+          </p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide class="slide">
+        <div class="div-img">
+          <img
+            class="img"
+            src="../../assets/images/activity/Activity 5-min.png"
+            alt="img3"
+          />
+        </div>
+        <div class="caption" id="txt-5">
+          <p>
+            5. Coordinating the science team related to the mangrove restoration
+            program
+          </p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide class="slide">
+        <div class="div-img">
+          <img
+            class="img"
+            src="../../assets/images/activity/Activity 6-min.png"
+            alt="img3"
+          />
+        </div>
+        <div class="caption" id="txt-6">
+          <p>
+            6. Make highlights and pitch deck presentations related to the
+            achievements of the mangrove restoration program
+          </p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide class="slide">
+        <div class="div-img">
+          <img
+            class="img"
+            src="../../assets/images/activity/Activity 7-min.png"
+            alt="img3"
+          />
+        </div>
+        <div class="caption" id="txt-7">
+          <p>
+            7. Make ToR and letters of invitation for activities with partners
+            (Government, Private and Community)
+          </p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide class="slide">
+        <div class="div-img">
+          <img
+            class="img"
+            src="../../assets/images/activity/Activity 8-min.png"
+            alt="img3"
+          />
+        </div>
+        <div class="caption" id="txt-8">
+          <p>8. ARR for mangrove at coastal areas</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
   </div>
 </div>

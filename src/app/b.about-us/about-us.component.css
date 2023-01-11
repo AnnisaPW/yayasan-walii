@@ -10,11 +10,7 @@
   width: 1000px;
   height: 100vh;
   background-color: #406343;
-  /* display: grid; */
-  /* justify-content: center; */
-  /* align-content: center; */
   text-align: center;
-
 }
 
 #txt-title {
@@ -23,46 +19,33 @@
   font-weight: 500;
   color: #fff;
   font-size: 8.5vh;
-  margin-bottom: 6vh;
+  margin-bottom: 1vh;
 }
 
 #div-carousel {
-  padding-left: 8.8vw;
-  background-color: green;
-  height: 70vh;
+  height: 450px;
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
-}
-
-#container-pict {
-  width: 500px;
-  height: 200px;
-  background-color: blue;
-
 
 }
 
-.picsum-img-wrapper {
-  width: 700px;
-  height: 40vh;
-  background-size: contain;
-  /* background-position: center; */
-  background-repeat: no-repeat;
+.img {
+  aspect-ratio: auto;
+  width: 800px;
+  margin-top: 50px;
+
 
 }
 
-#img-1 {
-  background-image: url('../../assets/images/about-us/p1.png');
-
+.caption {
+  text-align: justify;
+  width: 800px;
+  margin-left: 5.5vw;
+  margin-top: 20px;
+  color: #fff;
 }
 
-#img-2 {
-  background-image: url('../../assets/images/about-us/p2.png');
-
-}
-
-#img-3 {
-  background-image: url('../../assets/images/about-us/p3.png');
-
+@media screen and (max-width: 1000px) {
+  /* .caption {
+    margin-left: 6vw;
+  } */
 }
