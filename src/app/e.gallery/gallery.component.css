@@ -1,0 +1,15 @@
+#div-bg {
+  height: 100vh;
+  background-color: #32502E;
+  align-content: center;
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  width: 1000px;
+  height: 90vh;
+  background-color: #406343;
+  display: flex;
+  justify-content: center;
+}

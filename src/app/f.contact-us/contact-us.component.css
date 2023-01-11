@@ -1,0 +1,18 @@
+#div-bg {
+  height: 100vh;
+  background-color: #32502E;
+  /* align-content: center;
+  display: grid;
+  justify-content: center; */
+}
+
+.container {
+  width: 1000px;
+  height: 45vh;
+  /* background-color: #406343; */
+  background-image: url('../../assets/images/contact-us.png');
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}

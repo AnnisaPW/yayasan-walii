@@ -1,6 +1,56 @@
-<!-- <p>about-us works!</p> -->
 <div id="div-bg">
   <div id="container">
     <div id="txt-title">About Us</div>
+    <!-- <div> -->
+
+
+    <ngb-carousel *ngIf="images" id="div-carousel">
+
+
+      <div ngbSlide id="container-pict">
+        <div>
+          <div class="picsum-img-wrapper" id="img-1"></div>
+        </div>
+      </div>
+
+      <ng-template ngbSlide id="container-pict">
+
+        <div>
+
+          <div class="picsum-img-wrapper" id="img-1">
+
+          </div>
+
+        </div>
+
+
+      </ng-template>
+      <ng-template ngbSlide id="container-pict">
+
+        <div class="carousel-caption">
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper" id="img-2">
+        </div>
+        <div class="carousel-caption">
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper" id="img-3">
+        </div>
+        <div class="carousel-caption">
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </ng-template>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque omnis nulla atque culpa vel odit nemo
+        architecto magni, numquam quis, labore enim tempore unde eveniet aspernatur animi sapiente dolor recusandae?</p>
+    </ngb-carousel>
   </div>
 </div>

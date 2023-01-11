@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-about-us',
-  templateUrl: './about-us.component.html',
-  styleUrls: ['./about-us.component.css'],
+  selector: 'app-coba',
+  templateUrl: './coba.component.html',
+  styleUrls: ['./coba.component.css'],
 })
-export class AboutUsComponent implements OnInit {
+export class CobaComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-
   images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 }
