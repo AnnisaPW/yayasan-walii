@@ -1,5 +1,5 @@
 #div-bg {
-  height: 100vh;
+  height: 1000px;
   background-color: #32502E;
   align-content: center;
   display: grid;
@@ -11,6 +11,7 @@
   background-color: #406343;
   justify-content: center;
   align-items: center;
+  margin-top: 400px;
 }
 
 
@@ -62,7 +63,6 @@
 }
 
 #project {
-  /* height: 35vh; */
   height: 350px;
   margin-top: 4vh;
   text-align: center;
@@ -90,6 +90,14 @@
 
 
 @media screen and (max-width: 1000px) {
+  #div-bg {
+    height: 100vw;
+  }
+
+  .div-child {
+    margin-top: 40vw;
+  }
+
   .img-person {
     width: 32.5vw;
   }

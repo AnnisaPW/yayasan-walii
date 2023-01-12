@@ -1,5 +1,5 @@
 #div-img {
-  height: 100vh;
+  height: 1000px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -21,7 +21,7 @@
 }
 
 #container {
-  margin-top: 2vh;
+  /* margin-top: 2vh; */
   width: 1000px;
 }
 
@@ -45,8 +45,8 @@
 }
 
 @media screen and (max-width: 1000px) {
-  #container {
-    margin-top: 1vw;
+  #div-img {
+    height: 100vw;
   }
 
   #title2 {

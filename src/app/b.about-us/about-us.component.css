@@ -1,5 +1,5 @@
 #div-bg {
-  height: 100vh;
+  height: 1000px;
   background-color: #32502E;
   display: flex;
   justify-content: center;
@@ -8,18 +8,18 @@
 
 #container {
   width: 1000px;
-  height: 100vh;
+  height: 1000px;
   background-color: #406343;
   text-align: center;
+  margin-top: 200px;
 }
 
 #txt-title {
   font-family: 'Kadwa';
-  margin-top: 3vh;
+  margin-top: 20px;
   font-weight: 500;
   color: #fff;
-  font-size: 8.5vh;
-  margin-bottom: 1vh;
+  font-size: 80px;
 }
 
 #div-carousel {
@@ -31,7 +31,7 @@
 .img {
   aspect-ratio: auto;
   width: 800px;
-  margin-top: 50px;
+  margin-top: 45px;
 
 
 }
@@ -39,13 +39,37 @@
 .caption {
   text-align: justify;
   width: 800px;
-  margin-left: 5.5vw;
+  margin-left: 100px;
   margin-top: 20px;
   color: #fff;
 }
 
 @media screen and (max-width: 1000px) {
-  /* .caption {
-    margin-left: 6vw;
-  } */
+  #div-bg {
+    height: 100vw;
+  }
+
+  #txt-title {
+    font-size: 8vw;
+  }
+
+  #container {
+    height: 100vw;
+    margin-top: 20vw;
+  }
+
+  .img {
+    width: 80vw;
+    margin-top: 4.5vw;
+  }
+
+  .caption {
+    width: 80vw;
+    font-size: 1.6vw;
+    margin-left: 9vw;
+  }
+
+  #div-carousel {
+    height: 45vw;
+  }
 }

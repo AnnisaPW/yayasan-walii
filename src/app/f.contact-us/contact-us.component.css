@@ -1,22 +1,29 @@
 @import 'material-icons/iconfont/material-icons.css';
 
 #div-bg {
-  height: 100vh;
+  height: 1080px;
   background-color: #32502E;
-  /* align-content: center;
   display: grid;
-  justify-content: center; */
+  justify-content: center;
 }
 
 .div-child {
   width: 1000px;
-  height: 45vh;
-  padding-left: 50px;
+  height: 450px;
   background-image: url('../../assets/images/contact-us.png');
+  margin-top: 100px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-position: center;
-  /* justify-content: center; */
+}
+
+.wrap {
+  width: 960px;
+  height: 425px;
+  padding: 10px;
+
 }
 
 .txt {
@@ -24,23 +31,18 @@
   font-style: normal;
   font-weight: 500;
   margin: 0;
-  /* font-size: 50px; */
   line-height: 104.78%;
   color: #FFFFFF;
 }
 
 #title1 {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 55px;
-
-
 }
 
 #title2 {
   margin-top: 0;
-  font-size: 60px;
-
-
+  font-size: 55px;
 }
 
 #telp {
@@ -58,18 +60,14 @@
 }
 
 .div-sosmed {
-  /* position: absolute; */
-  margin-left: 660px;
+  margin-left: 720px;
   margin-top: 15px;
-  /* right: 10% */
 }
 
 .sosmed {
   aspect-ratio: auto;
   width: 60px;
   margin-left: 10px;
-  /* align-items: flex-end; */
-
 }
 
 #f {
@@ -78,4 +76,60 @@
 
 #y {
   width: 41px;
+}
+
+@media screen and (max-width: 1000px) {
+  #div-bg {
+    height: 100vw;
+  }
+
+  .div-child {
+    height: 45vw;
+    margin-top: 10vw;
+  }
+
+  .wrap {
+    height: 42.5vw;
+    width: 95vw;
+  }
+
+  #title1 {
+    font-size: 5.5vw;
+    margin-top: 4vw;
+  }
+
+  #title2 {
+    font-size: 5.5vw;
+  }
+
+  #street {
+    margin-top: 2vw
+  }
+
+  #telp {
+    font-size: 1.4vw;
+    margin-top: 2vw;
+  }
+
+  .address {
+    font-size: 1.6vw;
+  }
+
+  .div-sosmed {
+    margin-left: 70vw;
+    margin-top: 1.5vw;
+  }
+
+  .sosmed {
+    width: 6vw;
+    margin-left: 0.7vw;
+  }
+
+  #f {
+    width: 1.5vw;
+  }
+
+  #y {
+    width: 4.1vw;
+  }
 }
