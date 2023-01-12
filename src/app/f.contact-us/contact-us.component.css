@@ -1,5 +1,5 @@
 #div-bg {
-  height: 1080px;
+  height: 1000vh;
   background-color: #32502E;
   display: grid;
   justify-content: center;
@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 1000px) {
   #div-bg {
-    height: 100vw;
+    height: 135vw;
   }
 
   .div-child {
