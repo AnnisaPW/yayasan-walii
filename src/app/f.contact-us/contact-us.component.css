@@ -1,7 +1,7 @@
 #div-bg {
-  height: 1000vh;
+  height: 1100px;
   background-color: #32502E;
-  display: grid;
+  display: flex;
   justify-content: center;
 }
 
@@ -9,7 +9,7 @@
   width: 1000px;
   height: 450px;
   background-image: url('../../assets/images/contact-us.png');
-  margin-top: 100px;
+  margin-top: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 1000px) {
   #div-bg {
-    height: 135vw;
+    height: 110vw;
   }
 
   .div-child {
@@ -114,7 +114,7 @@
   }
 
   .div-sosmed {
-    margin-left: 70vw;
+    margin-left: 65vw;
     margin-top: 1.5vw;
   }
 

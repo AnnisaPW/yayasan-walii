@@ -1,29 +1,130 @@
-.container {
-  width: 1000px;
-  height: 100vh;
-  background-color: pink;
-
-}
-
-.inner1 {
-  width: 1000px;
+#div-bg {
+  /* height: 1000vh; */
+  /* width: 100%; */
   height: 1000px;
-  background-color: purple;
+  background-color: #32502E;
+  display: flex;
+  justify-content: center;
 }
 
-.inner2 {
-  width: 500px;
+/* .div-child {
+  width: 1000px;
+  background-color: #406343;
+  justify-content: center;
+  margin-top: 400px;
+} */
+
+
+.div-child {
+  width: 1000px;
+  background-color: #406343;
+  justify-content: center;
+  margin-top: 400px;
+  text-align: center;
+
+}
+
+
+#div-img {
+  display: flex;
+  /* position: absolute; */
+  /* justify-content: center;
+  align-content: center; */
+
+}
+
+
+.name {
+  color: #fff;
+  font-weight: 400;
+  font-size: 28px;
+  font-family: 'Kadwa';
+
+}
+
+#person {
+  height: 450px;
+  display: flex;
+
+}
+
+#person2 {
+  text-align: end;
+
+}
+
+
+.img-person {
+  aspect-ratio: auto;
+  width: 325px;
+  margin-top: 10px;
+
+}
+
+#k2 {
+  margin-left: 80px;
+}
+
+#project {
   height: 350px;
-  margin: auto;
-  background-color: red;
-  position: relative;
+  margin-top: 4vh;
+
+
 }
 
-.image {
-  max-width: 500px;
-  max-height: 400px;
-  margin: auto;
-  position: absolute;
-  bottom: 0;
+.txt-title {
+  font-family: 'Kadwa';
+  font-weight: 500;
+  color: #fff;
+  font-size: 50px;
+}
 
+
+.paragraph {
+  font-family: 'Kadwa';
+  font-weight: 400;
+  color: white;
+  font-size: 32px;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1000px) {
+  #div-bg {
+    height: 100vw;
+  }
+
+  .div-child {
+    margin-top: 40vw;
+    width: 95vw;
+  }
+
+  .img-person {
+    width: 32.5vw;
+  }
+
+  #div-name {
+    font-size: 3vw;
+  }
+
+  .name {
+    font-size: 2.8vw;
+  }
+
+  .txt-title {
+    font-size: 5vw;
+  }
+
+  #person {
+    height: 45vw;
+  }
+
+  .paragraph {
+    font-size: 3.2vw;
+  }
+
+  #project {
+    height: 35vw;
+
+  }
 }

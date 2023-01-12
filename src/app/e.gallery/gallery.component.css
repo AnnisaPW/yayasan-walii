@@ -1,9 +1,8 @@
 #div-bg {
-  /* height: 100vh; */
   height: 1000px;
   background-color: #32502E;
   align-content: center;
-  display: grid;
+  display: flex;
   justify-content: center;
 }
 
@@ -13,7 +12,7 @@
   background-color: #406343;
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 .container-img {
@@ -35,7 +34,7 @@
 
   .div-child {
     height: 80vw;
-    margin-top: 20vw;
+    margin-top: 25vw;
   }
 
   .img {
