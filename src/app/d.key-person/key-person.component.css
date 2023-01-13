@@ -1,8 +1,15 @@
 #div-bg {
-  height: 1000px;
+  height: 100vh;
   background-color: #32502E;
   display: flex;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrap {
+  display: grid;
+  align-content: center;
 }
 
 
@@ -10,10 +17,8 @@
   width: 1000px;
   background-color: #406343;
   justify-content: center;
-  margin-top: 300px;
   text-align: center;
   padding-right: 10x;
-
 }
 
 
@@ -30,16 +35,20 @@
 
 }
 
-#person {
-  height: 450px;
+#div-img {
   display: flex;
-  overflow: hidden;
-
+  justify-content: center;
+  align-items: center;
 }
+
+#person {
+  height: 45vh;
+  display: flex;
+}
+
 
 #person2 {
   text-align: end;
-
 }
 
 
@@ -47,16 +56,19 @@
   aspect-ratio: auto;
   width: 325px;
   margin-top: 10px;
-
 }
+
 
 #k2 {
   margin-left: 80px;
 }
 
 #project {
-  height: 350px;
-  margin-top: 30px;
+  height: 40vh;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 
 }
@@ -66,7 +78,6 @@
   font-weight: 500;
   color: #fff;
   font-size: 50px;
-  margin-top: 20px;
 }
 
 
@@ -78,17 +89,12 @@
   margin: 0;
 }
 
+#paragraph2 {
+  margin-top: 2vh;
+}
+
 
 @media screen and (max-width: 1000px) {
-  #div-bg {
-    height: 100vw;
-  }
-
-  .div-child {
-    margin-top: 30vw;
-    width: 90vw;
-  }
-
   .img-person {
     width: 32.5vw;
   }
@@ -103,7 +109,6 @@
 
   .txt-title {
     font-size: 5vw;
-    margin-top: 2vw;
   }
 
   #person {
@@ -115,8 +120,16 @@
   }
 
   #project {
-    height: 35vw;
-    margin-top: 3vw;
+    height: 40vw;
+    margin-top: 4vw;
 
+  }
+
+  #k2 {
+    margin-left: 8vw;
+  }
+
+  #paragraph2 {
+    margin-top: 2vw;
   }
 }

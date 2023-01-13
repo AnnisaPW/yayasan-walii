@@ -1,5 +1,5 @@
 #div-bg {
-  height: 1000px;
+  height: 100vh;
   background-color: #32502E;
   display: flex;
   justify-content: center;
@@ -8,10 +8,9 @@
 
 #container {
   width: 1000px;
-  height: 1000px;
+  height: 98vh;
   background-color: #406343;
   text-align: center;
-  margin-top: 200px;
 }
 
 #txt-title {
@@ -25,15 +24,12 @@
 #div-carousel {
   height: 450px;
   display: flex;
-
 }
 
 .img {
   aspect-ratio: auto;
   width: 800px;
   margin-top: 45px;
-
-
 }
 
 .caption {
@@ -45,17 +41,12 @@
 }
 
 @media screen and (max-width: 1000px) {
-  #div-bg {
-    height: 100vw;
-  }
-
   #txt-title {
     font-size: 8vw;
   }
 
   #container {
-    height: 100vw;
-    margin-top: 20vw;
+    height: 98vw;
   }
 
   .img {
