@@ -1,5 +1,5 @@
 #div-bg {
-  height: 100vh;
+  height: 1000px;
   background-color: #32502E;
   align-content: center;
   display: flex;
@@ -8,10 +8,11 @@
 
 .div-child {
   width: 1000px;
-  height: 98vh;
+  height: 1000px;
   background-color: #406343;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .container-img {
@@ -26,8 +27,14 @@
 }
 
 @media screen and (max-width: 1000px) {
+  #div-bg {
+    height: 100vw;
+
+  }
+
   .div-child {
-    height: 98vw;
+    height: 100vw;
+    margin-top: 3vw;
   }
 
   .img {

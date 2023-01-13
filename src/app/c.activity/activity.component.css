@@ -2,14 +2,13 @@
 #txt-3,
 #txt-4,
 #txt-5,
-#txt-7,
 #txt-8 {
   text-align: center;
 }
 
 
 #div-bg {
-  height: 100vh;
+  height: 1000px;
   background-color: #32502E;
   display: flex;
   justify-content: center;
@@ -18,9 +17,10 @@
 
 #container {
   width: 1000px;
-  height: 98vh;
+  height: 1000px;
   background-color: #406343;
   text-align: center;
+  margin-top: 400px;
 }
 
 #txt-title {
@@ -40,7 +40,8 @@
 .img {
   aspect-ratio: auto;
   width: 800px;
-  margin-top: 45px;
+  margin-top: 40px;
+  /* margin-top: 45px; */
 
 
 }
@@ -50,27 +51,38 @@
   width: 800px;
   margin-left: 100px;
   margin-top: 20px;
+  /* margin-top: 20px; */
   color: #fff;
+  font-size: 20px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1000px) {
+  #div-bg {
+    height: 100vw;
+
+  }
+
   #txt-title {
     font-size: 8vw;
   }
 
   #container {
-    height: 98vw;
+    height: 100vw;
+    margin-top: 80vw;
   }
 
   .img {
     width: 80vw;
-    margin-top: 4.5vw;
+    margin-top: 4vw;
   }
 
   .caption {
     width: 80vw;
     font-size: 1.6vw;
     margin-left: 9vw;
+    font-size: 2vw;
+    margin-top: 2vw;
   }
 
   #div-carousel {

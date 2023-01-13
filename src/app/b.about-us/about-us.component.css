@@ -1,5 +1,5 @@
 #div-bg {
-  height: 100vh;
+  height: 1000px;
   background-color: #32502E;
   display: flex;
   justify-content: center;
@@ -8,9 +8,14 @@
 
 #container {
   width: 1000px;
-  height: 98vh;
+  height: 1000px;
   background-color: #406343;
   text-align: center;
+  margin-top: 200px;
+}
+
+.slide {
+  margin: 0;
 }
 
 #txt-title {
@@ -22,14 +27,17 @@
 }
 
 #div-carousel {
-  height: 450px;
+  height: 320px;
   display: flex;
 }
 
 .img {
   aspect-ratio: auto;
   width: 800px;
-  margin-top: 45px;
+}
+
+p {
+  font-size: 20px;
 }
 
 .caption {
@@ -38,29 +46,43 @@
   margin-left: 100px;
   margin-top: 20px;
   color: #fff;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1000px) {
+  #div-bg {
+    height: 100vw;
+
+  }
+
   #txt-title {
     font-size: 8vw;
+    margin-top: 2vw;
   }
 
   #container {
-    height: 98vw;
+    margin-top: 40vw;
+    height: 120vw;
   }
 
   .img {
     width: 80vw;
-    margin-top: 4.5vw;
   }
 
   .caption {
+    margin-top: 2vw;
     width: 80vw;
-    font-size: 1.6vw;
     margin-left: 9vw;
+
+
+  }
+
+  p {
+    font-size: 2vw;
+
   }
 
   #div-carousel {
-    height: 45vw;
+    height: 32vw;
   }
 }

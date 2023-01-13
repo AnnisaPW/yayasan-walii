@@ -1,5 +1,5 @@
 #div-bg {
-  height: 100vh;
+  height: 1200px;
   background-color: #32502E;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@
   background-color: #406343;
   justify-content: center;
   text-align: center;
-  padding-right: 10x;
+  padding-right: 10px;
 }
 
 
@@ -42,7 +42,8 @@
 }
 
 #person {
-  height: 45vh;
+  margin-top: 200px;
+  height: 450px;
   display: flex;
 }
 
@@ -64,7 +65,7 @@
 }
 
 #project {
-  height: 40vh;
+  height: 340px;
   margin-top: 4vh;
   display: flex;
   justify-content: center;
@@ -90,11 +91,16 @@
 }
 
 #paragraph2 {
-  margin-top: 2vh;
+  margin-top: 20px;
 }
 
 
 @media screen and (max-width: 1000px) {
+  #div-bg {
+    height: 150vw;
+
+  }
+
   .img-person {
     width: 32.5vw;
   }
@@ -113,6 +119,7 @@
 
   #person {
     height: 45vw;
+    margin-top: 40vw;
   }
 
   .paragraph {
